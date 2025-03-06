@@ -13,14 +13,14 @@ from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Twitter login credentials - replace with your own
-TWITTER_ID = "6204454301"  # Enter your Twitter username
-TWITTER_PASSWORD = "br7A@4828"  # Enter your password
+TWITTER_ID = ""  # Enter your Twitter username
+TWITTER_PASSWORD = ""  # Enter your password
 
 # MySQL database configuration
 MYSQL_CONFIG = {
     "host": "localhost",
-    "user": "twitter_user",  # Replace with your MySQL username
-    "password": "twitter_user",  # Replace with your MySQL password
+    "user": "Enter_your_username",  # Replace with your MySQL username
+    "password": "Enter_your_password",  # Replace with your MySQL password
     "database": "twitter_data",
 }
 
